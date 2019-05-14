@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <!-- <link rel="stylesheet" href="node_modules/materialize-css/dist/css/materialize.min.css"> -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="src/styles/style.scss">
+</head>
+
+<body>
+    <div class="tms-container">
+        <div class="tms-topbar">
+            <div class="tms-logo">
+                <i id="tms-hamburger" class="material-icons">menu</i>
+                Time<span>Manager</span>
+            </div>
+            <div class="tms-login-container">
+                <div class="tms-login-info">
+                    <img src="src/assets/mprattinger.jpg" class="tms-avatar" />
+                    <span class="tms-greeting">Michael Prattinger</span>
+                </div>
+                <span class="tms-logout"><a href="#"><img src="src/assets/logout.png" /><span>Ausloggen</span></a></span>
+            </div>
+        </div>
+        <div class="tms-main-container">
+            <div class="tms-sidebar maximized">
+                <div class="tms-minimize-menu">
+                    <i class="material-icons arrow_forward">arrow_forward</i>
+                    <i class="material-icons arrow_back">arrow_back</i>
+                </div>
+                <ul>
+                    <li class="nav-item"><a href="#" class="tooltip" data-position="right" data-tooltip="Mitarbeiter"><i
+                                class="material-icons">person</i><span>Mitarbeiter</span></a></li>
+                    <li class="nav-item"><a href="#" class="tooltip" data-position="right"
+                            data-tooltip="Urlaubs Anträge"><i class="material-icons">beach_access</i><span>Urlaubs
+                                Anträge</span></a></li>
+                    <li class="nav-item"><a href="#" class="tooltip" data-position="right" data-tooltip="Tools"><i
+                                class="material-icons">settings</i><span>Tools</span></a></li>
+                </ul>
+            </div>
+            <div class="tms-content">
+                <p>Lorem ipsum xyz</p>
+            </div>
+        </div>
+    </div>
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="src/js/navbar.js"></script>
+</body>
+
+</html>
